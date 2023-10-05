@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
-
+#include <conio.h>
 void *entry_point(void *value) {
     printf("hello from the second thread :)\n");
 
